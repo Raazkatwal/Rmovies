@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-size: 62.5%;
+    --primary-color: #11551155;
+    --secondary-color: #59815b;
 }
 nav{
     width: 100%;
@@ -11,6 +13,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 99;
 }
 .nav-container{
     width: 85%;
@@ -39,7 +42,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f3f0eb;
+    background-color: white;
     width: 55rem;
     height: 4rem;
     border-radius: 10rem;
@@ -71,6 +74,122 @@ nav{
 .login-btn:hover{
     color: #4dbf00;
 }
-body{
-    background-color: #f3f0eb;
+.container{
+    background-color: var(--primary-color);
+    min-height: 100vh;
+    padding: 12rem 10rem;
+    font-family: arial;
+}
+.description{
+    background-color: white;
+}
+.description p {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 1.5rem;
+}
+.movies-shows-container{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-column-gap: 1rem;
+}
+.trending-btns{
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    width: 7rem;
+    height: 3rem;
+    border-radius: .5rem;
+}
+.btn-active{
+    background-color: var(--secondary-color);
+    color: white;
+}
+.section-title{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.title-name{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.row{
+    display: flex;
+    gap: 1rem;
+    height: 25rem;
+    margin-bottom: 1rem;
+}
+.tile{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 14rem;
+    height: 20rem;
+}
+.poster-link{
+    position: relative;
+}
+.poster_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.fa-circle-play{
+    font-size: 5rem;
+    position: absolute;
+    bottom: 8rem;
+    left: 4rem;
+    color: var(--secondary-color);
+    opacity: 0;
+}
+.poster_img:hover + .fa-circle-play{
+    transition: 250ms ease-in-out;
+    opacity: 1;
+}
+.poster_img:hover{
+    transition: 250ms ease-in-out;
+    opacity: .8;
+}
+.fa-circle-play:hover{
+    opacity: 1;
+}
+.show-title{
+    overflow: hidden;
+    height: 2rem;
+}
+.show-title-link{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #111;
+}
+.show-title-link:hover{
+    transition: 200ms ease-in-out;
+    color: var(--secondary-color);
+}
+.show-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: #666;
+}
+.show-quality{
+    background: var(--secondary-color);
+    color: white;
+    border-radius: 10%;
+    width: 3rem;
+    height: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+}
+.dot{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #666;
+    border-radius: 100%;
 }
