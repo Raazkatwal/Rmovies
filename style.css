@@ -91,7 +91,6 @@ nav{
     padding: 1.5rem;
 }
 .movies-shows-container{
-    margin-top: 5rem;
     display: grid;
     grid-template-columns: 75% 25%;
     grid-column-gap: 3rem;
@@ -111,6 +110,7 @@ nav{
     color: white;
 }
 .section-title{
+    margin-top: 5rem;
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -163,10 +163,11 @@ nav{
     max-width: fit-content;
 }
 .show-title-link, .imdb-show-title-link{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
     text-decoration: none;
     color: #111;
+    line-height: 2rem;
 }
 .show-title-link:hover, .imdb-show-title-link:hover{
     transition: 200ms ease-in-out;
@@ -175,6 +176,7 @@ nav{
 .show-info{
     display: flex;
     align-items: center;
+    padding-top: .5rem;
     justify-content: space-around;
     font-size: 2rem;
     color: #666;
