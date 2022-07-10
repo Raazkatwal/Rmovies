@@ -4,6 +4,8 @@
     font-size: 62.5%;
     --primary-color: #11551155;
     --secondary-color: #59815b;
+    --imdb-rating-color: #0010ed;
+    scroll-behavior: smooth;
 }
 nav{
     width: 100%;
@@ -92,7 +94,7 @@ nav{
     margin-top: 5rem;
     display: grid;
     grid-template-columns: 75% 25%;
-    grid-column-gap: 1rem;
+    grid-column-gap: 3rem;
 }
 .trending-btns{
     background-color: transparent;
@@ -118,6 +120,7 @@ nav{
     font-weight: 600;
     color: var(--secondary-color);
 }
+
 .row{
     display: flex;
     gap: 1rem;
@@ -159,15 +162,16 @@ nav{
 }
 .show-title{
     overflow: hidden;
-    height: 2rem;
+    max-height: 1.9rem;
+    max-width: fit-content;
 }
-.show-title-link{
+.show-title-link, .imdb-show-title-link{
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: #111;
 }
-.show-title-link:hover{
+.show-title-link:hover, .imdb-show-title-link:hover{
     transition: 200ms ease-in-out;
     color: var(--secondary-color);
 }
@@ -186,10 +190,42 @@ nav{
     height: 1.6rem;
     text-align: center;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .dot{
     width: 0.4rem;
     height: 0.4rem;
     background: #666;
     border-radius: 100%;
+}
+.imdb-tile{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2.5rem;
+}
+.imdb-poster-link{width: 30%;}
+.imdb-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.imdb-show-title{
+    margin-bottom: 1rem;
+    max-height: 1.8rem;
+    max-width: fit-content;
+    overflow: hidden;
+}
+.imdb-show-info{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #666;
+    width: 13rem;
+    justify-content: space-between;
+}
+.rating{
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: var(--imdb-rating-color);
 }
