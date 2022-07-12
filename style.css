@@ -354,7 +354,15 @@ nav{
         font-size: 60%;
     }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1800px) {
+    *{
+        font-size: 85%;
+    }
+    .show-info, .imdb-show-info{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 2000px) {
     *{
         font-size: 115%;
     } 
