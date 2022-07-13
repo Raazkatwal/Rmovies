@@ -182,6 +182,9 @@ nav{
     font-size: 2rem;
     color: #666;
 }
+.season, .episodes{
+    text-transform: uppercase;
+}
 .show-quality{
     background: var(--accent-color);
     color: white;
