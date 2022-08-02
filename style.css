@@ -143,158 +143,6 @@ nav{
     min-height: 100vh;
     padding: 12rem 10rem;
 }
-.description{
-    background-color: white;
-}
-.description p {
-    font-size: 1.5rem;
-    text-align: justify;
-    padding: 1.5rem;
-}
-.movies-shows-container{
-    display: grid;
-    grid-template-columns: 75% 25%;
-    grid-column-gap: 3rem;
-}
-.trending-btns{
-    background-color: transparent;
-    font-size: 1.5rem;
-    cursor: pointer;
-    border: none;
-    text-align: center;
-    width: 7rem;
-    height: 3rem;
-    border-radius: .5rem;
-}
-.btn-active{
-    background-color: var(--accent-color);
-    color: white;
-}
-.section-title{
-    margin-top: 5rem;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-.title-name{
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--accent-color);
-}
-.content-section{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    place-items: center;
-}
-.tile{
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-    width: 13rem;
-    height: 20rem;
-}
-.poster-link{
-    position: relative;
-}
-.poster_img{
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.fa-circle-play{
-    font-size: 5rem;
-    position: absolute;
-    bottom: 8rem;
-    left: 4rem;
-    color: var(--accent-color);
-    opacity: 0;
-}
-.poster_img:hover + .fa-circle-play{
-    transition: 250ms ease-in-out;
-    opacity: 1;
-}
-.poster_img:hover{
-    transition: 250ms ease-in-out;
-    opacity: .8;
-}
-.fa-circle-play:hover{
-    opacity: 1;
-}
-.show-title{
-    overflow: hidden;
-    max-height: 1.9rem;
-    max-width: fit-content;
-}
-.show-title-link, .imdb-show-title-link{
-    font-size: 1.4rem;
-    font-weight: 600;
-    text-decoration: none;
-    color: #111;
-    line-height: 2rem;
-}
-.show-title-link:hover, .imdb-show-title-link:hover{
-    transition: 200ms ease-in-out;
-    color: var(--accent-color);
-}
-.show-info{
-    display: flex;
-    align-items: center;
-    padding-top: .5rem;
-    justify-content: space-around;
-    font-size: 2rem;
-    color: #666;
-}
-.season, .episodes{
-    text-transform: uppercase;
-}
-.show-quality{
-    background: var(--accent-color);
-    color: white;
-    border-radius: 10%;
-    width: 3rem;
-    height: 1.8rem;
-    padding-top: 2%;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.dot{
-    width: 0.4rem;
-    height: 0.4rem;
-    background: #666;
-    border-radius: 100%;
-}
-.imdb-tile{
-    margin-top: 2rem;
-    display: flex;
-    gap: 2.5rem;
-}
-.imdb-poster-link{width: 30%;}
-.imdb-img{
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.imdb-show-title{
-    margin-bottom: 1rem;
-    max-height: 1.8rem;
-    max-width: fit-content;
-    overflow: hidden;
-}
-.imdb-show-info{
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    color: #666;
-    width: 13rem;
-    justify-content: space-between;
-}
-.rating{
-    margin-top: 1.5rem;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    color: var(--imdb-rating-color);
-}
 .footer{
     width: 100%;
     height: 15rem;
@@ -319,12 +167,6 @@ nav{
     *{
         font-size: 70%;
     }
-    .top-imdb-tiles{
-        display: none;
-    }
-    .movies-shows-container{
-        grid-template-columns: 100%;
-    }
 }
 @media screen and (max-width: 1100px) {
     *{
@@ -341,21 +183,6 @@ nav{
     }
     .footer-link{
         display: none;
-    }
-    .poster_img:hover + .fa-circle-play{
-        transition: 250ms ease-in-out;
-        opacity: 0;
-    }
-    .poster_img:hover{
-        transition: 250ms ease-in-out;
-        opacity: 1;
-    }
-    .fa-circle-play:hover{
-        opacity: 0;
-    }
-    .show-title-link:hover{
-        transition: 200ms ease-in-out;
-        color: #111;
     }
 }
 @media screen and (max-width: 650px){
@@ -389,25 +216,9 @@ nav{
         grid-column: 2 /3;
         grid-row-start: 1;
     }
-    .content-section{
-        grid-template-columns: 1fr 1fr;
-    }
-    .description p{
-        font-size: 1rem;
-    }
     .container{
         padding-left: 1rem;
         padding-right: 1rem;
-    }
-    .tile{
-        width: 95%;
-        height: 80%;
-        margin: 0;
-        padding: 0;
-    }
-    .show-info{
-        justify-content: start;
-        gap: 1rem;
     }
     .footer-des, .credits{
         font-size: 1rem;
@@ -422,25 +233,10 @@ nav{
     *{
         font-size: 85%;
     }
-    .show-info, .imdb-show-info{
-        font-size: 1.5rem;
-    }
 }
 @media screen and (min-width: 2000px) {
     *{
         font-size: 115%;
-    } 
-    .show-info, .imdb-show-info{
-        font-size: 1.3rem;
-    }
-    .tile{
-        margin-bottom: 8rem;
-    }
-    .show-title{
-        max-height: 2.8rem;
-    }
-    .imdb-show-title{
-        max-height: 5rem;
     }
     .footer-des, .credits{
         font-size: 2rem;
