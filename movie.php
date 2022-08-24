@@ -57,8 +57,57 @@
         <div class="warning">
             <h1>If you get any error message when trying to stream, please Refresh the page or switch to another streaming server.</h1>
         </div>
-        <iframe src="https://slwatch.co/e/WvBgrD8Z8yNlMZ64" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="800" height="600" allowfullscreen></iframe>    </div>
-    <div class="footer">
+        <div class="player">
+            <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+            <video id="video-id"><source src="video.mp4" type="video/mp4" />
+            <script>
+                var myFP = fluidPlayer(
+                    'video-id',	{
+                "layoutControls": {
+                    "controlBar": {
+                        "autoHideTimeout": 3,
+                        "animated": true,
+                        "autoHide": true
+                    },
+                    "htmlOnPauseBlock": {
+                        "html": null,
+                        "height": null,
+                        "width": null
+                    },
+                    "autoPlay": false,
+                    "mute": true,
+                    "allowTheatre": true,
+                    "playPauseAnimation": true,
+                    "playbackRateEnabled": true,
+                    "allowDownload": true,
+                    "playButtonShowing": true,
+                    "fillToContainer": false,
+                    "posterImage": ""
+                },
+                "vastOptions": {
+                    "adList": [],
+                    "adCTAText": false,
+                    "adCTATextPosition": ""
+                }
+            });
+            </script>
+        </div>
+        <div class="info-section">
+                <img src=".jpg" class = "movie-info-poster">
+                <div class="movie-info">
+                    <h1 class = "movie-title">Your Title Here</h1>
+                        <button>HD</button>
+                        <button class = "imdb-btn">IMDB</button>
+                    <p>Released: </p>
+                    <p>Genre: </p>
+                    <p>Casts: </p>
+                    <p>Duration: </p>
+                    <p>Country: </p>
+                    <p>Production: </p>
+                </div>
+        </div>
+    </div>
+            <div class="footer">
         <div class="footer-contents">
             <a href="index"  title="cineb" class="footer-link">
                 <img src="https://cineb.net/images/group_3/theme_3/logo.png?v=0.1" class="icon">
@@ -66,7 +115,6 @@
             <p class="footer-des">Cineb is a Free Movies streaming site with zero ads. We let you watch movies online without having to register or paying, with over 100 movies and TV-Series. You can also Download full movies from Cineb.net and watch it later if you want.</p>
             <div class="credits">© Developed by Raaz katwal</div>
         </div>
-    </div>
     <script src="script.js"></script>
 </body>
 </html>

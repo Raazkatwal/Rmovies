@@ -1,12 +1,11 @@
 <?php
-    $server = "localhost";
-    $username = "root";
-    $password = "";
+ $server = "localhost";
+ $username = "root";
+ $password = "";
 
-    $con = mysqli_connect($server, $username, $password);
-    
-        $sql = "SELECT * FROM `streaming_site`.`userinfo`;";
-        $result = mysqli_query($sql);
+ $con = mysqli_connect($server, $username, $password);
+$sql = "SELECT * FROM `streaming_site`.`movieinfo`";
+$result = mysqli_query($con, $sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,14 +18,11 @@
 <body>
     <div>
         <?php
-            if (mysqli_num_rows($result) > 0) {
-                while($row = mysqli_fetch_array($result)){
-                    echo "{$row['title']}<br>\n";
-                }
-            } else {
-                echo "<h1>vayena vayena</h1>";
+            while ($row = mysqli_fetch_assoc($result)) {
+                echo "<a href = 'movie.php?ID={$row['S.N']}'>{$row['Movie_name']}</a><br><br>";
             }
-            $con->close();
+        
+        $con->close();
         ?>
     </div>
 </body>
