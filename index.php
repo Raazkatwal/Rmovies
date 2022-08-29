@@ -12,7 +12,6 @@
         if ($email!=null && $pass!=null) {
             $con->query($sql);
         }
-        $con->close();
     }
 ?>
 <!DOCTYPE html>
@@ -73,12 +72,12 @@
                 </div>
                 <div class="trending-movies content-section">
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Jurassic World Domination">
+                        <a href="movie?ID=1" class = "poster-link" title="Jurassic World Domination">
                             <img src="img/jurassic-world.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Jurassic World Domination">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=1" class="show-title-link">
                                 Jurassic World Domination
                             </a>
                         </div>
@@ -90,12 +89,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Thor: Love and Thunder">
+                        <a href="movie?ID=2" class = "poster-link" title="Thor: Love and Thunder">
                             <img src="img/thor-love-and-thunder.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Thor: Love and Thunder">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=2" class="show-title-link">
                                 Thor: Love and Thunder
                             </a>
                         </div>
@@ -107,12 +106,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Doctor Strange: In The Multiverse Of Madness">
+                        <a href="movie?ID=3" class = "poster-link" title="Doctor Strange: In The Multiverse Of Madness">
                             <img src="img/Dr.strange-MOM.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Doctor Strange: In The Multiverse Of Madness">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=3" class="show-title-link">
                                 Doctor Strange: In The Multiverse Of Madness
                             </a>
                         </div>
@@ -124,12 +123,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Minions: The Rise of Gru">
-                            <img src="img/Minions.jpg" class = "poster_img">
+                        <a href="movie?ID=4" class = "poster-link" title="Minions: The Rise of Gru">
+                            <img src="img/Minions.png" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Minions: The Rise of Gru">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=4" class="show-title-link">
                                 Minions: The Rise of Gru
                             </a>
                         </div>
@@ -141,29 +140,29 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Hello, Goodbye, and Everything in Between">
-                            <img src="img/hgaetib.jpg" class = "poster_img">
+                        <a href="movie?ID=5" class = "poster-link" title="Sinister">
+                            <img src="img/sinister.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="Hello, Goodbye, and Everything in Between">
-                            <a href="#" class="show-title-link">
-                                Hello, Goodbye, and Everything in Between
+                        <div class="show-title" title="Sinister">
+                            <a href="movie?ID=5" class="show-title-link">
+                                Sinister
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
-                            <div class="release-date">2022</div>
+                            <div class="release-date">2012</div>
                             <div class="dot"></div>
-                            <div class="duration">83m</div>
+                            <div class="duration">110m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Sea Beast">
+                        <a href="movie?ID=6" class = "poster-link" title="The Sea Beast">
                             <img src="img/sea-beast.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Sea Beast">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=6" class="show-title-link">
                                 The Sea Beast
                             </a>
                         </div>
@@ -175,29 +174,29 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Princess">
-                            <img src="img/The-princess.jpg" class = "poster_img">
+                        <a href="movie?ID=7" class = "poster-link" title="Prey">
+                            <img src="img/prey.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="The Princess">
-                            <a href="#" class="show-title-link">
-                                The Princess
+                        <div class="show-title" title="Prey">
+                            <a href="movie?ID=7" class="show-title-link">
+                                Prey
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
                             <div class="release-date">2022</div>
                             <div class="dot"></div>
-                            <div class="duration">94m</div>
+                            <div class="duration">120m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Girl in the Picture">
+                        <a href="movie?ID=8" class = "poster-link" title="Girl in the Picture">
                             <img src="img/girl-in-the-picture.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Girl in the Picture">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=8" class="show-title-link">
                                 Girl in the Picture
                             </a>
                         </div>
@@ -209,29 +208,29 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Top Gun: Maverick">
+                        <a href="movie?ID=9" class = "poster-link" title="Top Gun: Maverick">
                             <img src="img/top-gun.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Top Gun: Maverick">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=9" class="show-title-link">
                                 Top Gun: Maverick
                             </a>
                         </div>
                         <div class="show-info">
-                            <div class="show-quality">cam</div>
+                            <div class="show-quality">hd</div>
                             <div class="release-date">2022</div>
                             <div class="dot"></div>
                             <div class="duration">131m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Everything Everywhere All at Once">
+                        <a href="movie?ID=10" class = "poster-link" title="Everything Everywhere All at Once">
                             <img src="img/everything-everywhere-all-at-once.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Everything Everywhere All at Once">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=10" class="show-title-link">
                                 Everything Everywhere All at Once
                             </a>
                         </div>
@@ -243,12 +242,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="movie" class = "poster-link" title="Spider-Man: No Way Home">
+                        <a href="movie?ID=11" class = "poster-link" title="Spider-Man: No Way Home">
                             <img src="img/no-way-home.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Spider-Man: No Way Home">
-                            <a href="movie" class="show-title-link">
+                            <a href="movie?ID=11" class="show-title-link">
                                 Spider-Man: No Way Home
                             </a>
                         </div>
@@ -260,12 +259,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Fantastic Beasts: The Secretsof Dumbledore">
+                        <a href="movie?ID=12" class = "poster-link" title="Fantastic Beasts: The Secretsof Dumbledore">
                             <img src="img/fantastic-beasts.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Fantastic Beasts: The Secretsof Dumbledore">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=12" class="show-title-link">
                                 Fantastic Beasts: The Secretsof Dumbledore
                             </a>
                         </div>
@@ -277,12 +276,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Batman">
+                        <a href="movie?ID=13" class = "poster-link" title="The Batman">
                             <img src="img/batman.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Batman">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=13" class="show-title-link">
                                 The Batman
                             </a>
                         </div>
@@ -294,12 +293,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Vendetta">
+                        <a href="movie?ID=14" class = "poster-link" title="Vendetta">
                             <img src="img/vendetta.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Vendetta">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=14" class="show-title-link">
                                 Vendetta
                             </a>
                         </div>
@@ -311,12 +310,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Northman">
+                        <a href="movie?ID=15" class = "poster-link" title="The Northman">
                             <img src="img/northman.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Northman">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=15" class="show-title-link">
                                 The Northman
                             </a>
                         </div>
@@ -328,12 +327,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Hot Seat">
+                        <a href="movie?ID=16" class = "poster-link" title="Hot Seat">
                             <img src="img/hotseat.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Hot Seat">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=16" class="show-title-link">
                                 Hot Seat
                             </a>
                         </div>
@@ -345,12 +344,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Man From Toronto">
+                        <a href="movie?ID=17" class = "poster-link" title="The Man From Toronto">
                             <img src="img/man-from-toronto.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Man From Toronto">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=17" class="show-title-link">
                                 The Man From Toronto
                             </a>
                         </div>
@@ -362,12 +361,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Lost City">
+                        <a href="movie?ID=18" class = "poster-link" title="The Lost City">
                             <img src="img/lost-city.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Lost City">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=18" class="show-title-link">
                                 The Lost City
                             </a>
                         </div>
@@ -379,12 +378,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Elvis">
+                        <a href="movie?ID=19" class = "poster-link" title="Elvis">
                             <img src="img/elvis.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Elvis">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=19" class="show-title-link">
                                 Elvis
                             </a>
                         </div>
@@ -396,29 +395,29 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Lightyear">
+                        <a href="movie?ID=20" class = "poster-link" title="Lightyear">
                             <img src="img/lightyear.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Lightyear">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=20" class="show-title-link">
                                 Lightyear
                             </a>
                         </div>
                         <div class="show-info">
-                            <div class="show-quality">SD</div>
+                            <div class="show-quality">hd</div>
                             <div class="release-date">2022</div>
                             <div class="dot"></div>
                             <div class="duration">105m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Morbius">
+                        <a href="movie?ID=21" class = "poster-link" title="Morbius">
                             <img src="img/Morbius.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Morbius">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=21" class="show-title-link">
                                 Morbius
                             </a>
                         </div>
@@ -430,12 +429,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Sonic the Hedgehog 2">
+                        <a href="movie?ID=22" class = "poster-link" title="Sonic the Hedgehog 2">
                             <img src="img/sonic.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Sonic the Hedgehog 2">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=22" class="show-title-link">
                                 Sonic the Hedgehog 2
                             </a>
                         </div>
@@ -447,12 +446,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Code Name Banshee">
+                        <a href="movie?ID=23" class = "poster-link" title="Code Name Banshee">
                             <img src="img/code-name-banshee.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Code Name Banshee">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=23" class="show-title-link">
                                 Code Name Banshee
                             </a>
                         </div>
@@ -464,17 +463,17 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Black Phone">
+                        <a href="movie?ID=24" class = "poster-link" title="The Black Phone">
                             <img src="img/The-black-phone.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Black Phone">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=24" class="show-title-link">
                                 The Black Phone
                             </a>
                         </div>
                         <div class="show-info">
-                            <div class="show-quality">cam</div>
+                            <div class="show-quality">hd</div>
                             <div class="release-date">2022</div>
                             <div class="dot"></div>
                             <div class="duration">102m</div>
@@ -908,12 +907,12 @@
                 </div>
                 <div class="content-section">
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Sea Beast">
+                        <a href="movie?ID=6" class = "poster-link" title="The Sea Beast">
                             <img src="img/sea-beast.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Sea Beast">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=6" class="show-title-link">
                                 The Sea Beast
                             </a>
                         </div>
@@ -925,12 +924,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Bridges">
+                        <a href="movie?ID=25" class = "poster-link" title="Bridges">
                             <img src="img/bridges.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Bridges">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=25" class="show-title-link">
                                 Bridges
                             </a>
                         </div>
@@ -942,12 +941,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Brian and Charles">
+                        <a href="movie?ID=26" class = "poster-link" title="Brian and Charles">
                             <img src="img/brian-and-charles.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Brian and Charles">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=26" class="show-title-link">
                                 Brian and Charles
                             </a>
                         </div>
@@ -959,12 +958,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Block Party">
+                        <a href="movie?ID=27" class = "poster-link" title="Block Party">
                             <img src="img/block-party.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Block Party">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=27" class="show-title-link">
                                 Block Party
                             </a>
                         </div>
@@ -976,29 +975,29 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Bigfoot or Bust">
-                            <img src="img/bigfoot-or-bust.jpg" class = "poster_img">
+                        <a href="movie?ID=28" class = "poster-link" title="Transformers: Dark of the Moon">
+                            <img src="img/transformers.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="Bigfoot or Bust">
-                            <a href="#" class="show-title-link">
-                                Bigfoot or Bust
+                        <div class="show-title" title="Transformers: Dark of the Moon">
+                            <a href="movie?ID=28" class="show-title-link">
+                                Transformers: Dark of the Moon
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
-                            <div class="release-date">2022</div>
+                            <div class="release-date">2011</div>
                             <div class="dot"></div>
-                            <div class="duration">87m</div>
+                            <div class="duration">154m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Best Years Gone">
+                        <a href="movie?ID=29" class = "poster-link" title="Best Years Gone">
                             <img src="img/best-years-gone.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Best Years Gone">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=29" class="show-title-link">
                                 Best Years Gone
                             </a>
                         </div>
@@ -1010,29 +1009,29 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Love Under the Lemon Tree">
-                            <img src="img/love-under-the-lemon-tree.jpg" class = "poster_img">
+                        <a href="movie?ID=30" class = "poster-link" title="Gangs of Wasseypur - Part 1">
+                            <img src="img/wasseypur-1.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="Love Under the Lemon Tree">
-                            <a href="#" class="show-title-link">
-                                Love Under the Lemon Tree
+                        <div class="show-title" title="Gangs of Wasseypur - Part 1">
+                            <a href="movie?ID=30" class="show-title-link">
+                                Gangs of Wasseypur - Part 1
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
-                            <div class="release-date">2022</div>
+                            <div class="release-date">2012</div>
                             <div class="dot"></div>
-                            <div class="duration">85m</div>
+                            <div class="duration">160m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Take the Night">
+                        <a href="movie?ID=31" class = "poster-link" title="Take the Night">
                             <img src="img/take-the-night.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Take the Night">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=31" class="show-title-link">
                                 Take the Night
                             </a>
                         </div>
@@ -1044,12 +1043,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Drover's Wife: The Legend of Molly Johnson">
+                        <a href="movie?ID=32" class = "poster-link" title="The Drover's Wife: The Legend of Molly Johnson">
                             <img src="img/the-drover's-wife.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Drover's Wife: The Legend of Molly Johnson">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=32" class="show-title-link">
                                 The Drover's Wife: The Legend of Molly Johnson
                             </a>
                         </div>
@@ -1061,46 +1060,46 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Eden Theory">
-                            <img src="img/the-eden-theory.jpg" class = "poster_img">
+                        <a href="movie?ID=33" class = "poster-link" title="The Godfather">
+                            <img src="img/the-godfather.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="The Eden Theory">
-                            <a href="#" class="show-title-link">
-                                The Eden Theory
+                        <div class="show-title" title="The Godfather">
+                            <a href="movie?ID=33" class="show-title-link">
+                                The Godfather
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
-                            <div class="release-date">2021</div>
+                            <div class="release-date">1972</div>
                             <div class="dot"></div>
-                            <div class="duration">107m</div>
+                            <div class="duration">175m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Laws of the Universe: The Age of Elohim">
-                            <img src="img/laws-of-universe.jpg" class = "poster_img">
+                        <a href="movie?ID=34" class = "poster-link" title="Samaritan">
+                            <img src="img/samaritan.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="The Laws of the Universe: The Age of Elohim">
-                            <a href="#" class="show-title-link">
-                                The Laws of the Universe: The Age of Elohim
+                        <div class="show-title" title="Samaritan">
+                            <a href="movie?ID=34" class="show-title-link">
+                                Samaritan
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
-                            <div class="release-date">2021</div>
+                            <div class="release-date">2022</div>
                             <div class="dot"></div>
-                            <div class="duration">119m</div>
+                            <div class="duration">99m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Summoned">
+                        <a href="movie?ID=35" class = "poster-link" title="The Summoned">
                             <img src="img/the-summoned.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Summoned">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=35" class="show-title-link">
                                 The Summoned
                             </a>
                         </div>
@@ -1112,29 +1111,29 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Thor: God of Thunder">
-                            <img src="img/god-of-thunder.jpg" class = "poster_img">
+                        <a href="movie?ID=36" class = "poster-link" title="Gangs of Wasseypur - Part 2">
+                            <img src="img/wasseypur-2.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="Thor: God of Thunder">
-                            <a href="#" class="show-title-link">
-                                Thor: God of Thunder
+                        <div class="show-title" title="Gangs of Wasseypur - Part 2">
+                            <a href="movie?ID=36" class="show-title-link">
+                                Gangs of Wasseypur - Part 2
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
-                            <div class="release-date">2022</div>
+                            <div class="release-date">2012</div>
                             <div class="dot"></div>
-                            <div class="duration">90m</div>
+                            <div class="duration">160m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Wayward">
+                        <a href="movie?ID=37" class = "poster-link" title="Wayward">
                             <img src="img/wayward.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Wayward">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=37" class="show-title-link">
                                 Wayward
                             </a>
                         </div>
@@ -1146,12 +1145,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Thor: Love and Thunder">
+                        <a href="movie?ID=2" class = "poster-link" title="Thor: Love and Thunder">
                             <img src="img/thor-love-and-thunder.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Thor: Love and Thunder">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=2" class="show-title-link">
                                 Thor: Love and Thunder
                             </a>
                         </div>
@@ -1163,12 +1162,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Jurassic World Domination">
+                        <a href="movie?ID=1" class = "poster-link" title="Jurassic World Domination">
                             <img src="img/jurassic-world.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Jurassic World Domination">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=1" class="show-title-link">
                                 Jurassic World Domination
                             </a>
                         </div>
@@ -1180,12 +1179,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Hot Seat">
+                        <a href="movie?ID=16" class = "poster-link" title="Hot Seat">
                             <img src="img/hotseat.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Hot Seat">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=16" class="show-title-link">
                                 Hot Seat
                             </a>
                         </div>
@@ -1197,12 +1196,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Rubikon">
+                        <a href="movie?ID=38" class = "poster-link" title="Rubikon">
                             <img src="img/rubikon.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Rubikon">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=38" class="show-title-link">
                                 Rubikon
                             </a>
                         </div>
@@ -1214,12 +1213,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Code Name Banshee">
+                        <a href="movie?ID=23" class = "poster-link" title="Code Name Banshee">
                             <img src="img/code-name-banshee.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Code Name Banshee">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=23" class="show-title-link">
                                 Code Name Banshee
                             </a>
                         </div>
@@ -1231,29 +1230,29 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Princess">
-                            <img src="img/The-princess.jpg" class = "poster_img">
+                        <a href="movie?ID=7" class = "poster-link" title="Prey">
+                            <img src="img/prey.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="The Princess">
-                            <a href="#" class="show-title-link">
-                                The Princess
+                        <div class="show-title" title="Prey">
+                            <a href="movie?ID=7" class="show-title-link">
+                                Prey
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
                             <div class="release-date">2022</div>
                             <div class="dot"></div>
-                            <div class="duration">94m</div>
+                            <div class="duration">120m</div>
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Endangered">
+                        <a href="movie?ID=39" class = "poster-link" title="Endangered">
                             <img src="img/endangered.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Endangered">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=39" class="show-title-link">
                                 Endangered
                             </a>
                         </div>
@@ -1265,12 +1264,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Blasted">
+                        <a href="movie?ID=40" class = "poster-link" title="Blasted">
                             <img src="img/blasted.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Blasted">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=40" class="show-title-link">
                                 Blasted
                             </a>
                         </div>
@@ -1282,12 +1281,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="#Unknown">
+                        <a href="movie?ID=41" class = "poster-link" title="#Unknown">
                             <img src="img/unknown.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="#Unknown">
-                            <a href="#" class="show-title-link">
+                            <a href="movie?ID=41" class="show-title-link">
                                 #Unknown
                             </a>
                         </div>
@@ -1299,20 +1298,20 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Love You Anyway">
-                            <img src="img/love-you-anyway.jpg" class = "poster_img">
+                        <a href="movie?ID=42" class = "poster-link" title="Runway 34">
+                            <img src="img/runway.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="Love You Anyway">
-                            <a href="#" class="show-title-link">
-                                Love You Anyway
+                        <div class="show-title" title="Runway 34">
+                            <a href="movie?ID=42" class="show-title-link">
+                                Runway 34
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
                             <div class="release-date">2022</div>
                             <div class="dot"></div>
-                            <div class="duration">80m</div>
+                            <div class="duration">141m</div>
                         </div>
                     </div>
                 </div>

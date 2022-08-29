@@ -11,16 +11,6 @@
 .warning h1{
     font-size: 1.6rem;
 }
-#video-id, .fluid_video_wrapper{
-    width: 100%;
-    height: auto;
-}
-div#video-id_fluid_context_menu{
-    font-size: 3.5rem;
-}
-.fluid_video_playback_rates_item{
-    font-size: 1.5rem;
-}
 iframe{
     width: 100%;
     height: 60rem;
@@ -38,15 +28,15 @@ iframe{
     font-size: 3.3rem;
 }
 .movie-info button{
-    background-color: transparent;
+    background-color: white;
     outline: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 1.2rem 1.2rem 1.2rem 0;
     text-align: center;
     border: .1rem solid black;
     padding: .2rem;
-    width: 7rem;
-    height: 3rem;
+    width: 9rem;
+    height: 4rem;
     border-radius: 15rem;
 }
 .movie-info p{
