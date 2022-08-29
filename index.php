@@ -992,20 +992,20 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="movie?ID=29" class = "poster-link" title="Best Years Gone">
-                            <img src="img/best-years-gone.jpg" class = "poster_img">
+                        <a href="movie?ID=29" class = "poster-link" title="Tenet">
+                            <img src="img/tenet.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="Best Years Gone">
+                        <div class="show-title" title="Tenet">
                             <a href="movie?ID=29" class="show-title-link">
-                                Best Years Gone
+                                Tenet
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
-                            <div class="release-date">2021</div>
+                            <div class="release-date">2020</div>
                             <div class="dot"></div>
-                            <div class="duration">94m</div>
+                            <div class="duration">150m</div>
                         </div>
                     </div>
                     <div class="tile">
@@ -1281,20 +1281,20 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="movie?ID=41" class = "poster-link" title="#Unknown">
-                            <img src="img/unknown.jpg" class = "poster_img">
+                        <a href="movie?ID=41" class = "poster-link" title="Interstellar">
+                            <img src="img/interstellar.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
-                        <div class="show-title" title="#Unknown">
+                        <div class="show-title" title="Interstellar">
                             <a href="movie?ID=41" class="show-title-link">
-                                #Unknown
+                                Interstellar
                             </a>
                         </div>
                         <div class="show-info">
                             <div class="show-quality">hd</div>
-                            <div class="release-date">2022</div>
+                            <div class="release-date">2014</div>
                             <div class="dot"></div>
-                            <div class="duration">97m</div>
+                            <div class="duration">169m</div>
                         </div>
                     </div>
                     <div class="tile">
