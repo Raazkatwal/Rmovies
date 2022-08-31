@@ -487,12 +487,12 @@
 
                 <div class="trending-tv-shows content-section">
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Stranger Things">
+                        <a href="series?ID=1" class = "poster-link" title="Stranger Things">
                             <img src="img/stranger-things.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Stranger Things">
-                            <a href="#" class="show-title-link">
+                            <a href="series?ID=1" class="show-title-link">
                                 Stranger Things
                             </a>
                         </div>
@@ -504,12 +504,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Boys">
+                        <a href="series?ID=2" class = "poster-link" title="The Boys">
                             <img src="img/The-boys.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Boys">
-                            <a href="#" class="show-title-link">
+                            <a href="series?ID=2" class="show-title-link">
                                 The Boys
                             </a>
                         </div>
@@ -1548,12 +1548,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="The Boys">
+                        <a href="series?ID=2" class = "poster-link" title="The Boys">
                             <img src="img/The-boys.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="The Boys">
-                            <a href="#" class="show-title-link">
+                            <a href="series?ID=2" class="show-title-link">
                                 The Boys
                             </a>
                         </div>
@@ -1599,12 +1599,12 @@
                         </div>
                     </div>
                     <div class="tile">
-                        <a href="#" class = "poster-link" title="Stranger Things">
+                        <a href="series?ID=1" class = "poster-link" title="Stranger Things">
                             <img src="img/stranger-things.jpg" class = "poster_img">
                             <i class="fa-solid fa-circle-play"></i>
                         </a>
                         <div class="show-title" title="Stranger Things">
-                            <a href="#" class="show-title-link">
+                            <a href="series?ID=1" class="show-title-link">
                                 Stranger Things
                             </a>
                         </div>

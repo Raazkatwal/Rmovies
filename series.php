@@ -13,7 +13,7 @@
     }
     if (isset($_GET['ID'])) {
         $ID = mysqli_real_escape_string($con, $_GET['ID']);
-        $query = "SELECT * FROM `streaming_site`.`movieinfo` WHERE `S.N`='$ID' ";
+        $query = "SELECT * FROM `streaming_site`.`seriesinfo` WHERE `S.N`='$ID' ";
         $result = mysqli_query($con, $query);
         $row = mysqli_fetch_array($result);
     } else {
@@ -32,6 +32,7 @@
         <script src="https://kit.fontawesome.com/a3c06e4acc.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="movie.css">
+        <link rel="stylesheet" href="series.css">
 </head>
 <body>
     <nav>
@@ -66,6 +67,30 @@
         <div class="player">
             <iframe src="<?php echo $row['link'] ?>" scrolling="yes" frameborder="0" allowfullscreen="true"></iframe>
         </div>
+        <div class="selection-section">
+            <div class="selection-wrapper">
+
+                <div class="season-selection">
+                    <h4 class = "selection-title">Choose Season</h4>
+                <select>
+                    <option value="">Season 1</option>
+                    <option value="">Season 2</option>
+                    <option value="">Season 3</option>
+                </select>
+            </div>
+            <div class="episode-selection">
+                <h4 class = "selection-title">Episode List</h4>
+                <div class="episode-btn-wrapper">
+                    <?php
+                        echo '<button class="episode-btn active">Episode 1</button>';
+                    for ($i=2; $i <=6 ; $i++) {
+                        echo '<button class="episode-btn">Episode '.$i.'</button>';
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+        </div>
         <div class="info-section">
                 <img src="img/<?php echo $row['img'] ?>" class = "movie-info-poster">
                 <div class="movie-info">
@@ -91,5 +116,6 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="series.js"></script>
 </body>
 </html>
