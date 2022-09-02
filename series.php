@@ -2,18 +2,19 @@
         $server = "localhost";
         $username = "root";
         $password = "";
-        $con = mysqli_connect($server, $username, $password);
+        $dbname = "streaming_site";
+        $con = mysqli_connect($server, $username, $password, $dbname);
     if (isset($_POST['email'])) {
         $email = $_POST['email'];
         $pass = $_POST['pwd'];
-        $sql = "INSERT INTO `streaming_site`.`userinfo` (`email`, `password`) VALUES ('$email', '$pass');";
+        $sql = "INSERT INTO `userinfo` (`email`, `password`) VALUES ('$email', '$pass');";
         if ($email!=null && $pass!=null) {
             $con->query($sql);
         }
     }
     if (isset($_GET['ID'])) {
         $ID = mysqli_real_escape_string($con, $_GET['ID']);
-        $query = "SELECT * FROM `streaming_site`.`seriesinfo` WHERE `S.N`='$ID' ";
+        $query = "SELECT * FROM `seriesinfo` WHERE `S.N`='$ID' ";
         $result = mysqli_query($con, $query);
         $row = mysqli_fetch_array($result);
     } else {
@@ -49,7 +50,7 @@
     </nav>
     <dialog class="modal">
         <div class="login-section">
-            <form action="" class="login-form">
+            <form action="" class="login-form" method = "post">
                 <h1 class="form-title">Welcome back!</h1>
                 <label for="email" class="form-label">Enter your E-mail</label>
                 <input type="email" name="email" autocomplete="off" class="form-input" required>
@@ -73,9 +74,11 @@
                 <div class="season-selection">
                     <h4 class = "selection-title">Choose Season</h4>
                 <select>
-                    <option value="">Season 1</option>
-                    <option value="">Season 2</option>
-                    <option value="">Season 3</option>
+                    <?php 
+                    for ($i=1; $i <=$row['seasons'] ; $i++) { 
+                        echo '<option>Season '.$i.'</option>';
+                    }
+                    ?>
                 </select>
             </div>
             <div class="episode-selection">
@@ -83,7 +86,7 @@
                 <div class="episode-btn-wrapper">
                     <?php
                         echo '<button class="episode-btn active">Episode 1</button>';
-                    for ($i=2; $i <=6 ; $i++) {
+                    for ($i=2; $i <=$row['episodes'] ; $i++) {
                         echo '<button class="episode-btn">Episode '.$i.'</button>';
                     }
                     ?>

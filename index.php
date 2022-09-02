@@ -3,12 +3,13 @@
         $server = "localhost";
         $username = "root";
         $password = "";
+        $dbname = "streaming_site";
 
-        $con = mysqli_connect($server, $username, $password);
+        $con = mysqli_connect($server, $username, $password, $dbname);
         
         $email = $_POST['email'];
         $pass = $_POST['pwd'];
-        $sql = "INSERT INTO `streaming_site`.`userinfo` (`email`, `password`) VALUES ('$email', '$pass');";
+        $sql = "INSERT INTO `userinfo` (`email`, `password`) VALUES ('$email', '$pass');";
         if ($email!=null && $pass!=null) {
             $con->query($sql);
         }
