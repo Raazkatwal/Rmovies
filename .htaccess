@@ -1,4 +1,3 @@
 RewriteEngine On
 rewriteRule ^index?$ index.php
 rewriteRule ^movie?$ movie.php
-rewriteRule ^series?$ series.php
