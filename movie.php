@@ -35,31 +35,7 @@
         <link rel="stylesheet" href="movie.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-                <a href="index">
-                    <img src="https://cineb.net/images/group_3/theme_3/logo.png?v=0.1" class="icon" title="Rmovies">
-                </a>
-        <div class="search-section">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" class="search" placeholder="Enter keywords...">
-        </div>
-            <button class="login-btn"><i class="fa-solid fa-user"></i>Login</button>
-        </div>
-    </nav>
-    <dialog class="modal">
-        <div class="login-section">
-            <form action="" class="login-form" method = "post">
-                <h1 class="form-title">Welcome back!</h1>
-                <label for="email" class="form-label">Enter your E-mail</label>
-                <input type="email" name="email" autocomplete="off" class="form-input" required>
-                <label for="pwd" class="form-label">Enter your password</label>
-                <input type="password" name="pwd" class="form-input" required>
-                <input type="submit" value="Login" class="form-login-btn">
-            </form>
-            <button class="form-close-btn"><i class="fa-solid fa-xmark"></i></button>
-        </div>
-    </dialog>
+    <?php require 'nav.php'?>
     <div class="container">
         <div class="warning">
             <h1>If you get any error message when trying to stream, please Check your internet connection and Refresh the page.</h1>
@@ -82,15 +58,7 @@
                 </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="footer-contents">
-            <a href="index"  title="Rmovies" class="footer-link">
-                <img src="https://cineb.net/images/group_3/theme_3/logo.png?v=0.1" class="icon">
-            </a>
-            <p class="footer-des">Rmovies is a Free Movies streaming site with zero ads. We let you watch movies online without having to register or paying, with over 100 movies and TV-Series. You can also Download full movies from Rmovies.net and watch it later if you want.</p>
-            <div class="credits">© Developed by Raaz katwal</div>
-        </div>
-    </div>
+    <?php require 'footer.php'?>
     <script src="script.js"></script>
 </body>
 </html>

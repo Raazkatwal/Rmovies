@@ -32,31 +32,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-                <a href="index">
-                    <img src="https://cineb.net/images/group_3/theme_3/logo.png?v=0.1" class="icon" title="Rmovies">
-                </a>
-        <div class="search-section">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" class="search" placeholder="Enter keywords...">
-        </div>
-            <button class="login-btn"><i class="fa-solid fa-user"></i>Login</button>
-        </div>
-    </nav>
-    <dialog class="modal">
-        <div class="login-section">
-            <form action="index" class="login-form" method = "post">
-                <h1 class="form-title">Welcome back!</h1>
-                <label for="email" class="form-label">Enter your E-mail</label>
-                <input type="email" name="email" autocomplete="off" class="form-input" required>
-                <label for="pwd" class="form-label">Enter your password</label>
-                <input type="password" name="pwd" class="form-input" required>
-                <input type="submit" value="Login" class="form-login-btn">
-            </form>
-            <button class="form-close-btn"><i class="fa-solid fa-xmark"></i></button>
-        </div>
-    </dialog>
+    <?php require 'nav.php'?>
     <div class="container">
         <div class="description">
             <p>Ever wanted to watch free movies online? Then look no further. Watch movies of various categories only here. Stream HD quality movies on your TV, laptop or mobile. Here you can watch the movies of your choice without any registration or signups - most hassle-free option. Stop visiting terrible sites that promise movies in HD and 4K quality and serve you crap, and waste your time and energy. You can easily search the movies of your choice here- from blockbusters to rare critically- acclaimed gems, we have them all. We promise regular uploads. So, your favorite movie is just a click away! Think no more, start streaming</p>
@@ -202,16 +178,7 @@
     </div>
 
 
-    <div class="footer">
-        <div class="footer-contents">
-            <a href="index"  title="Rmovies" class="footer-link">
-                <img src="https://cineb.net/images/group_3/theme_3/logo.png?v=0.1" class="icon">
-            </a>
-            <p class="footer-des">Rmovies is a Free Movies streaming site with zero ads. We let you watch movies online without having to register or paying, with over 50 movies and TV-Series. You can also Download full movies from Rmovies.net and watch it later if you want.</p>
-            <div class="credits">© Developed by Raaz katwal</div>
-        </div>
-    </div>
+    <?php require 'footer.php'?>
     <script src="script.js"></script>
-    <script src="index.js"></script>
 </body>
 </html>
