@@ -5,14 +5,6 @@
         $dbname = "streaming_site";
 
         $con = mysqli_connect($server, $username, $password, $dbname);
-    if (isset($_POST['email'])) {
-        $email = $_POST['email'];
-        $pass = $_POST['pwd'];
-        $sql = "INSERT INTO `userinfo` (`email`, `password`) VALUES ('$email', '$pass');";
-        if ($email!=null && $pass!=null) {
-            $con->query($sql);
-        }
-    }
     $query = "SELECT * FROM `movieinfo`";
     $result1 = mysqli_query($con, $query);
     $result2 = mysqli_query($con, $query);
