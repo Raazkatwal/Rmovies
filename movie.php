@@ -4,14 +4,6 @@
         $password = "";
         $dbname = "streaming_site";
         $con = mysqli_connect($server, $username, $password, $dbname);
-    if (isset($_POST['email'])) {
-        $email = $_POST['email'];
-        $pass = $_POST['pwd'];
-        $sql = "INSERT INTO `userinfo` (`email`, `password`) VALUES ('$email', '$pass');";
-        if ($email!=null && $pass!=null) {
-            $con->query($sql);
-        }
-    }
     if (isset($_GET['ID'])) {
         $ID = mysqli_real_escape_string($con, $_GET['ID']);
         $query = "SELECT * FROM `movieinfo` WHERE `S.N`='$ID' ";
@@ -59,6 +51,5 @@
         </div>
     </div>
     <?php require 'footer.php'?>
-    <script src="script.js"></script>
 </body>
 </html>

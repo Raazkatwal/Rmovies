@@ -50,6 +50,8 @@
     position: relative;
     display: grid;
     place-items: center;
+    background-color: black;
+    border-radius: 5%;
 }
 .poster_img{
     width: 100%;
@@ -69,7 +71,7 @@
 }
 .poster_img:hover{
     transition: 250ms ease-in-out;
-    opacity: .8;
+    opacity: .7;
 }
 .fa-circle-play:hover{
     opacity: 1;
