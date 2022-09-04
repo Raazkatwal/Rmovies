@@ -40,7 +40,7 @@
 
         
         <div class="movies-shows-container">
-            <div class="movies-shows-tiles">
+            <div class="movies-shows-tiles" id="trending">
                 <div class="section-title">
                     <h3 class="title-name">
                         Trending Movies
@@ -74,7 +74,7 @@
                 </div>
 
 
-                <div class="section-title">
+                <div class="section-title" id="latest">
                     <h3 class="title-name">
                         Latest Movies
                     </h3>
@@ -107,7 +107,7 @@
                 </div>
 
 
-                <div class="section-title">
+                <div class="section-title" id="top-rated">
                     <h3 class="title-name">
                         Top imdb Movies
                     </h3>

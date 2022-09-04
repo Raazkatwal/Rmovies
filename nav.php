@@ -8,9 +8,9 @@
                 <input type="text" class="search" placeholder="Enter keywords...">
         </div>
         <div class="nav-btn-section">
-            <button class="nav-btn nav-btn-first">Trending</button>
-            <button class="nav-btn">Latest</button>
-            <button class="nav-btn">Top Rated</button>
+            <a href = "index#trending" class="nav-btn nav-btn-first">Trending</a>
+            <a href = "index#latest" class="nav-btn">Latest</a>
+            <a href = "index#top-rated" class="nav-btn">Top Rated</a>
         </div>
     </div>
 </nav>

@@ -74,6 +74,7 @@ nav{
     font-size: 1.7rem;
     cursor: pointer;
     transition: 150ms;
+    text-decoration: none;
 }
 .nav-btn:hover{
     color: var(--accent-color);
