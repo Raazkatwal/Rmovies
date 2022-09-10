@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 10, 2022 at 02:34 PM
+-- Generation Time: Sep 10, 2022 at 03:52 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.5
 
@@ -51,7 +51,7 @@ CREATE TABLE `movieinfo` (
 
 INSERT INTO `movieinfo` (`S.N`, `title`, `img`, `quality`, `imdb`, `Released`, `release_year`, `Genre`, `Casts`, `Duration`, `Country`, `Production`, `link`) VALUES
 (1, 'Jurassic World Dominion', 'jurassic-world.jpg', 'HD', 5.7, '2022-06-01', '2022', 'Adventure, Action, Science Fiction, Thriller', 'Chris Pratt, Bryce Dallas Howard, Isabella Sermon, Laura Dern, Sam Neill', '147 min', 'United States of America', 'Amblin Entertainment, Universal Pictures, Perfect World Pictures, Legendary Entertainment', 'https://dood.wf/e/xl0imfd9b2hyspj9000pgtkjyce110ew'),
-(2, 'Thor: Love and Thunder', 'thor-love-and-thunder.jpg', 'CAM', 6.7, '2022-07-07', '2022', 'Action, Comedy, Science Fiction, Adventure, Fantasy', ' Taika Waititi, Natalie Portman, Chris Pratt, Chris Hemsworth, Tessa Thompson', '150 min', 'United States of America', 'Marvel Studios', 'https://dood.wf/e/5sde59vlgw9tnp4ijgf237en7t37u5yv'),
+(2, 'Thor: Love and Thunder', 'thor-love-and-thunder.jpg', 'HD', 6.7, '2022-07-07', '2022', 'Action, Comedy, Science Fiction, Adventure, Fantasy', ' Taika Waititi, Natalie Portman, Chris Pratt, Chris Hemsworth, Tessa Thompson', '150 min', 'United States of America', 'Marvel Studios', 'https://dood.wf/e/s7n8l8qr3r5votq9l8pz68oam7clticb'),
 (3, 'Doctor Strange in the Multiverse of Madness', 'Dr.strange-MOM.jpg', 'HD', 7, '2022-05-04', '2022', 'Horror, Adventure, Action, Science Fiction, Thriller, Fantasy', 'Chiwetel Ejiofor, Elizabeth Olsen, Benedict Cumberbatch, Benedict Wong, Rachel McAdams', '180 min', 'United States of America', 'Marvel Studios', 'https://dood.wf/e/hk3i2wdk232v8wi0jgkvfuj8y2njmk5d'),
 (4, 'Minions: The Rise of Gru', 'Minions.png', 'HD', 6.6, '2022-06-16', '2022', 'Family, Adventure, Animation, Comedy, Action', 'Russell Brand, Alan Arkin, Taraji P. Henson, Steve Carell, Pierre Coffin', '87 min', 'United States of America, France, Japan', 'Universal Pictures, Illumination Entertainment', 'https://dood.wf/e/diq5fhgzj8al8rm3klgtlrno59xmvhwc'),
 (5, 'Sinister', 'sinister.jpg', 'HD', 6.8, '2012-03-29', '2012', 'Horror, Thriller, Mystery', 'Ethan Hawke, Juliet Rylance, Vincent D\'Onofrio, James Ransone, Fred Dalton Thompson', '110 min', 'United States of America', 'Automatik Entertainment, Blumhouse Productions, Alliance Films, IM Global, Possessed Pictures', 'https://dood.wf/e/ihh8ofml42byh3kmb8qdfmxawsdper5c'),
