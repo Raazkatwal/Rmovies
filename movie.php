@@ -21,7 +21,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Watch <?php echo $row['title'] ?> <?php echo $row['quality'] ?> for free</title>
-        <link  rel = "icon" href="https://cineb.net/images/group_3/theme_3/logo.png?v=0.1">
+        <link  rel = "icon" href="img/logo.png">
         <script src="https://kit.fontawesome.com/a3c06e4acc.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="movie.css">

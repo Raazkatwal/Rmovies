@@ -59,7 +59,7 @@
     border-radius: 5%;
 }
 .fa-circle-play{
-    font-size: 5rem;
+    width: 5rem;
     position: absolute;
     color: var(--accent-color);
     opacity: 0;

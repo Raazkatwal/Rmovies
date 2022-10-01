@@ -1,7 +1,7 @@
 <nav>
     <div class="nav-container">
             <a href="index">
-                <img src="https://cineb.net/images/group_3/theme_3/logo.png?v=0.1" class="icon" title="Rmovies">
+                <img src="img/logo.png" class="icon" title="Rmovies">
             </a>
         <div class="search-section">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>

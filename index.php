@@ -18,7 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rmovies - Watch Full HD Movies Online and Stream Free Movies Online Now</title>
-    <link  rel = "icon" href="https://cineb.net/images/group_3/theme_3/logo.png?v=0.1">
+    <link  rel = "icon" href="img/logo.png">
     <script src="https://kit.fontawesome.com/a3c06e4acc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
@@ -46,7 +46,7 @@
                                 <div class='tile'>
                                     <a href='movie?ID={$row['S.N']}' class = 'poster-link' title='{$row['title']}'>
                                         <img src='img/{$row['img']}' class = 'poster_img'>
-                                        <i class='fa-solid fa-circle-play'></i>
+                                        <img src='img/logo.png' class = 'fa-circle-play'>
                                     </a>
                                     <div class='show-title' title='{$row['title']}'>
                                         <a href='movie?ID={$row['S.N']}' class='show-title-link'>
@@ -79,7 +79,7 @@
                                 <div class='tile'>
                                     <a href='movie?ID={$row['S.N']}' class = 'poster-link' title='{$row['title']}'>
                                         <img src='img/{$row['img']}' class = 'poster_img'>
-                                        <i class='fa-solid fa-circle-play'></i>
+                                        <img src='img/logo.png' class = 'fa-circle-play'>
                                     </a>
                                     <div class='show-title' title='{$row['title']}'>
                                         <a href='movie?ID={$row['S.N']}' class='show-title-link'>
@@ -112,7 +112,7 @@
                                 <div class='tile'>
                                     <a href='movie?ID={$row['S.N']}' class = 'poster-link' title='{$row['title']}'>
                                         <img src='img/{$row['img']}' class = 'poster_img'>
-                                        <i class='fa-solid fa-circle-play'></i>
+                                        <img src='img/logo.png' class = 'fa-circle-play'>
                                     </a>
                                     <div class='show-title' title='{$row['title']}'>
                                         <a href='movie?ID={$row['S.N']}' class='show-title-link'>
