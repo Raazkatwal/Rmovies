@@ -3,12 +3,10 @@
             <a href="index">
                 <img src="img/logo.png" class="icon" title="Rmovies">
             </a>
-        <div class="search-section">
+        <form class="search-section">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <form action="search" method="post">
                 <input type="text" class="search" placeholder="Enter keywords..." name = 'search' autocomplete='off'>
-                </form>
-        </div>
+        </form>
         <div class="nav-btn-section">
             <a href = "index#trending" class="nav-btn nav-btn-first">Trending</a>
             <a href = "index#latest" class="nav-btn">Latest</a>
