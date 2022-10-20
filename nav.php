@@ -3,7 +3,7 @@
             <a href="index">
                 <img src="img/logo.png" class="icon" title="Rmovies">
             </a>
-        <form class="search-section">
+        <form action = "search.php" method = "post" class="search-section">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
                 <input type="text" class="search" placeholder="Enter keywords..." name = 'search' autocomplete='off'>
         </form>
