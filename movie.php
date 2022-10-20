@@ -1,11 +1,10 @@
 <?php
-        $server = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "streaming_site";
-        $con = mysqli_connect($server, $username, $password, $dbname);
+       include("db.php");
     if (isset($_GET['ID'])) {
         $ID = mysqli_real_escape_string($con, $_GET['ID']);
+        if ($ID<=0 || $ID>60) {
+            header('location:index');
+        }
         $query = "SELECT * FROM `movieinfo` WHERE `S.N`='$ID' ";
         $result = mysqli_query($con, $query);
         $row = mysqli_fetch_array($result);

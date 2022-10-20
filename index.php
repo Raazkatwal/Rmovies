@@ -1,10 +1,5 @@
 <?php
-        $server = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "streaming_site";
-
-        $con = mysqli_connect($server, $username, $password, $dbname);
+    include("db.php");
     $query = "SELECT * FROM `movieinfo`";
     $result1 = mysqli_query($con, $query);
     $result2 = mysqli_query($con, $query);

@@ -5,7 +5,9 @@
             </a>
         <div class="search-section">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" class="search" placeholder="Enter keywords...">
+                <form action="search" method="post">
+                <input type="text" class="search" placeholder="Enter keywords..." name = 'search' autocomplete='off'>
+                </form>
         </div>
         <div class="nav-btn-section">
             <a href = "index#trending" class="nav-btn nav-btn-first">Trending</a>
