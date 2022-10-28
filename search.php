@@ -13,7 +13,7 @@ if (isset($_POST['search'])) {
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <title>Search results for "<?php echo $search_item ?>" | Rmovies</title>
         <link  rel = "icon" href="img/logo.png">
         <script src="https://kit.fontawesome.com/a3c06e4acc.js" crossorigin="anonymous"></script>

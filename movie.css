@@ -1,5 +1,4 @@
 .warning{
-    width: 100%;
     background-color: #ffaa00;
     height: 4rem;
     display: grid;
@@ -16,7 +15,7 @@ iframe{
     height: 60rem;
 }
 .info-section{
-    margin-top: 3rem;
+    margin: 5rem 0;
     display: flex;
     gap: 2rem;
 }
@@ -41,4 +40,12 @@ iframe{
 }
 .movie-info p{
     font-size: 1.6rem;
+}
+@media screen and (max-width: 650px) {
+    .warning{
+        height: 8rem;
+    }
+    .info-section{
+        flex-direction: column;
+    }
 }
